@@ -4,12 +4,18 @@
   "description": "A simple and naive greeter",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [
     "hello-world"
   ],
   "author": "Go7hic",
   "license": "MIT",
-  "bin": {"greet": "./bin/greet.js"}
+  "bin": {
+    "greet": "./bin/greet.js"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0"
+  }
 }
